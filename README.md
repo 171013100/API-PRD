@@ -20,7 +20,7 @@
 ## 目标
 - 书籍智能匹配：利用百度商品识别api，用户上传图片后自动检测图中书籍，进行自动匹配，找到类似商品
 - 书籍智能识别：利用百度文字识别api，用户拍照后自动识别书籍封面文字，进行自动分类或智能搜索
-- 语言自动搜索：利用百度语言识别api，用户可以在语音转文字后直接进行搜索
+- 语音自动搜索：利用百度语言识别api，用户可以在语音转文字后直接进行搜索
 
 ## 价值主张设计
 ### 加值宣言
@@ -61,13 +61,30 @@
 ## API 产品使用关键AI或机器学习之API的输出入展示 
 ### 使用水平
 - [百度商品图片搜索api技术文档](https://ai.baidu.com/ai-doc/IMAGESEARCH/Uk3bczr77)
+
 输入：目标图片 输出：相似图片
 
+![图片入库](https://github.com/171013100/API-PRD/blob/master/picture1.png)
+
+![图片搜索](https://github.com/171013100/API-PRD/blob/master/picture2.png)
+
 - [百度文字识别api技术文档](https://ai.baidu.com/ai-doc/OCR/zk3h7xz52)
+
 输入：书籍图片 输出：书籍封面信息
 
+![示例图片](https://github.com/171013100/API-PRD/blob/master/history.jpg)
+
+![文字识别](https://github.com/171013100/API-PRD/blob/master/word1.png)
+
+![输出结果](https://github.com/171013100/API-PRD/blob/master/word2.png)
+
 - [百度语言识别api技术文档](https://ai.baidu.com/ai-doc/SPEECH/Ek39uxgre)
+
 输入：用户语音 输出：用户语音转文字
+
+![语音识别](https://github.com/171013100/API-PRD/blob/master/listen1.png)
+
+![输出结果](https://github.com/171013100/API-PRD/blob/master/listen2.png)
 ### 使用比较分析
 - 商品图片搜索api对比
 
